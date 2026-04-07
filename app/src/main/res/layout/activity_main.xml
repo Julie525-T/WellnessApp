@@ -104,6 +104,25 @@
             android:text="Daily Motivation"
             />
 
+        <Button
+            android:id="@+id/goals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:backgroundTint="#3DBBF6"
+            android:text="Weekly Goals"
+            />
+
+        <Button
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:backgroundTint="#3DBBF6"
+            android:text="Check Progress"/>
+
 
 
 

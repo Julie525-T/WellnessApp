@@ -1,28 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Meditation">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation"
-        android:textColor="#3DBBF6"
-        android:textSize="30dp"
-        android:textAlignment="center"
-        android:layout_marginTop="30dp"
-        />
+        android:paddingBottom="20dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/image1"
-        android:layout_margin="20dp"
-        android:scaleType="centerCrop"/>
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textColor="#3DBBF6"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image1"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/btnStartMeditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Meditation"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#3DBBF6"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tvMeditationTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3DBBF6"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMeditationMotivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breathe deeply and let go of stress 🌿"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnPlayAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play Guided Audio"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#3DBBF6"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnStopMeditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Meditation"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6B6B"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(nutritionIntent)
         }
 
-//        Meditation
+//        Meditation Intent
 
         val meditation=findViewById<Button>(R.id.meditation)
 
@@ -50,6 +50,36 @@ class MainActivity : AppCompatActivity() {
 
             val meditationIntent= Intent(applicationContext, Meditation::class.java)
             startActivity(meditationIntent)
+        }
+
+//        Hydration Intent
+
+        val hydration=findViewById<Button>(R.id.hydration)
+
+        hydration.setOnClickListener {
+
+            val hydrationIntent= Intent(applicationContext, HydrationAlert::class.java)
+            startActivity(hydrationIntent)
+        }
+
+//Weekly Goals Intent
+
+        val goals=findViewById<Button>(R.id.goals)
+
+        goals.setOnClickListener {
+            val goalsIntent= Intent(applicationContext, WeeklyGoals::class.java)
+
+            startActivity(goalsIntent)
+
+        }
+//Check Progress Intent
+
+        val progress=findViewById<Button>(R.id.progress)
+
+        progress.setOnClickListener {
+            val progressIntent= Intent(applicationContext, WeeklyGoals::class.java)
+
+            startActivity(progressIntent)
         }
     }
 }

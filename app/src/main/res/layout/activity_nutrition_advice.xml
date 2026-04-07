@@ -26,4 +26,105 @@
         android:scaleType="centerCrop"
         android:src="@drawable/image6"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/nutritionTipsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥗 Eat plenty of vegetables and fruits"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💧 Drink enough water every day"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍞 Prefer whole grains over refined grains"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥜 Include healthy fats like nuts and olive oil"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Breakfast"
+            android:textAlignment="center"
+            android:textColor="#3DBBF6"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#E0F7FF"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lunch"
+            android:textAlignment="center"
+            android:textColor="#3DBBF6"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#E0F7FF"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dinner"
+            android:textAlignment="center"
+            android:textColor="#3DBBF6"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#E0F7FF"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Snacks"
+            android:textAlignment="center"
+            android:textColor="#3DBBF6"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#E0F7FF"/>
+    </LinearLayout>
+
 </LinearLayout>

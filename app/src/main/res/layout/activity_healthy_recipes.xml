@@ -26,4 +26,67 @@
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/recipeListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥗 Avocado Salad"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+
+            <Button
+                android:id="@+id/btnBananaSmoothie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See Details"
+                android:layout_margin="10dp"
+                android:backgroundTint="#3DBBF6"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍲 Quinoa Soup"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+            <Button
+                android:id="@+id/btnBananaSmoothie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See Details"
+                android:layout_margin="10dp"
+                android:backgroundTint="#3DBBF6"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍌 Banana Smoothie"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="#3DBBF6"/>
+            <Button
+                android:id="@+id/btnBananaSmoothie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See Details"
+                android:layout_margin="10dp"
+                android:backgroundTint="#3DBBF6"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

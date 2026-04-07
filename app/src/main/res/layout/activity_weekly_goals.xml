@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyGoals">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Goals"
+        android:textColor="#3DBBF6"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keep going! You're making progress 💙"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#3DBBF6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Goals Progress"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarWeekly"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="50"
+        android:progressTint="#3DBBF6"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check off each goal as you complete it:"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="#3DBBF6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/goalSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Walk 10,000 steps"/>
+
+        <CheckBox
+            android:id="@+id/goalWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drink 2L water"/>
+
+        <CheckBox
+            android:id="@+id/goalMeditate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditate 15 minutes"/>
+
+        <CheckBox
+            android:id="@+id/goalSleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sleep 7 hours"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
