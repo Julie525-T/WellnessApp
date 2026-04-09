@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#E8F5F3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eunoia"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D7A"
+        android:layout_marginBottom="8dp"
+      android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Tagline -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beautiful thinking starts within"
+        android:textSize="14sp"
+        android:textColor="#7A7A7A"
+        android:textAlignment="center"
+        android:layout_marginLeft="90dp"/>
+
+
+
+
+</LinearLayout>
